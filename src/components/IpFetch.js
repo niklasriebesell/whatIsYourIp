@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 function useIpFetch() {
   useEffect(() => {
     fetchData();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
   const Key = process.env.REACT_APP_API_KEY;
   const [ip, setIp] = useState([]);
