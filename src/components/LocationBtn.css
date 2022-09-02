@@ -1,0 +1,17 @@
+.Button {
+  padding: 1rem 2rem;
+  border-radius: 25px;
+  font-size: 2rem;
+  background: -webkit-linear-gradient(#4158d0, #c850c0, #ffcc70);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border-style: none;
+}
+
+.Button:hover {
+  -webkit-box-shadow: inset -1px 3px 8px 5px #1f87ff, 2px 5px 16px 0px #0b325e,
+    17px 17px 20px 12px rgba(0, 0, 0, 0.1);
+  box-shadow: inset -1px 3px 8px 5px #1f87ff, 2px 5px 16px 0px #0b325e,
+    17px 17px 20px 12px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}

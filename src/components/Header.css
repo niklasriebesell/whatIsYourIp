@@ -1,0 +1,17 @@
+.HeaderWrapper {
+  font-size: 72px;
+  background: -webkit-linear-gradient(#4158d0, #c850c0, #ffcc70);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding-top: 2rem;
+}
+
+h1 {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+h2 {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
